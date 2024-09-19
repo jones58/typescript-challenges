@@ -26,12 +26,8 @@ export const snake = new Snake();
 
 type AnimalInZoo = Monkey | Snake;
 
-function isMonkey(animal: AnimalInZoo): animal is Monkey {
-  return (animal as Monkey).eatBanana !== undefined;
-}
-
 export function eatSomething(animal: AnimalInZoo) {
-  if (isMonkey(animal)) {
+  if (animal instanceof Monkey) {
     return monkey.eatBanana();
   } else {
     return snake.eatMouse();
