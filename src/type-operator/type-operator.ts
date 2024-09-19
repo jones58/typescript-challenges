@@ -48,13 +48,15 @@ const videos: Video[] = [
 function filterByProperty<T extends IdentifiableItem, K extends keyof T>(
   items: T[],
   key: K,
-  value: object | string
+  value: T[K]
 ): T[] {
   return items.filter((item) => item[key] === value);
 }
 
-export const filteredBooksByAuthor = filterByProperty(books, 'author', {
-  author: 'Philip K. Dick',
-});
+export const filteredBooksByAuthor = filterByProperty(
+  books,
+  'author',
+  'Philip K. Dick'
+);
 
-export const filteredVideosByLength = filterByProperty(videos, 'length', '15');
+export const filteredVideosByLength = filterByProperty(videos, 'length', 15);
