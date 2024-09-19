@@ -21,8 +21,25 @@ interface Teacher {
   teach(): string;
 }
 
-type SkilledPerson = Singer;
-export const johnDoe: SkilledPerson = {};
+function sing() {
+  return 'I can sing!';
+}
+
+function dance() {
+  return 'I can dance!';
+}
+
+function teach() {
+  return 'I can teach!';
+}
+
+type SkilledPerson = Singer & Dancer & Teacher;
+
+export const johnDoe: SkilledPerson = {
+  sing: sing, // Referencing the sing function
+  dance: dance, // Referencing the dance function
+  teach: teach, // Referencing the teach function
+};
 
 export function buildResume(person: SkilledPerson) {
   const skills = [person.dance(), person.sing(), person.teach()];
