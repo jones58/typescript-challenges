@@ -10,6 +10,8 @@
 
 ## A set of challenges that help you understand TypeScript 🚀
 
+This is my copy of completed challenges - for the original repository please see the repository from which this is forked [here](https://github.com/przeprogramowani/typescript-challenges)
+
 **Setup & Installation**
 
 Clone this repository and run `npm install`. You're good to go!
@@ -26,8 +28,8 @@ Clone this repository and run `npm install`. You're good to go!
 
 Discover all the challenges by running `npm run` in your console. Here's the list of available commands:
 
-- `npm run test:warm-up`
-- `npm run test:media`
+- [x] `npm run test:warm-up`
+- [x]`npm run test:media`
 - `npm run test:shortcuts`
 - `npm run test:this-or-that`
 - `npm run test:only-one`
