@@ -32,7 +32,7 @@ Discover all the challenges by running `npm run` in your console. Here's the lis
 - [x]`npm run test:media`
 - [x]`npm run test:shortcuts`
 - [x]`npm run test:this-or-that`
-- `npm run test:only-one`
+- [x]`npm run test:only-one`
 - `npm run test:new-skills`
 - `npm run test:constraints`
 - `npm run test:type-operator`
