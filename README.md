@@ -28,10 +28,10 @@ Clone this repository and run `npm install`. You're good to go!
 
 Discover all the challenges by running `npm run` in your console. Here's the list of available commands:
 
-- [x] `npm run test:warm-up`
+- [x]`npm run test:warm-up`
 - [x]`npm run test:media`
-- `npm run test:shortcuts`
-- `npm run test:this-or-that`
+- [x]`npm run test:shortcuts`
+- [x]`npm run test:this-or-that`
 - `npm run test:only-one`
 - `npm run test:new-skills`
 - `npm run test:constraints`
