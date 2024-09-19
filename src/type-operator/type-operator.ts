@@ -48,7 +48,7 @@ const videos: Video[] = [
 function filterByProperty<T extends IdentifiableItem, K extends keyof T>(
   items: T[],
   key: K,
-  value: unknown
+  value: object | string
 ): T[] {
   return items.filter((item) => item[key] === value);
 }

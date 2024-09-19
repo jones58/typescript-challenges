@@ -9,9 +9,11 @@
  * Hint: https://www.typescriptlang.org/docs/handbook/enums.html
  */
 enum Media {
-  Internet,
-  Press,
-  Radio,
+  Internet = 'Internet',
+  Press = 'Press',
+  Radio = 'Radio',
 }
 
-export const przeprogramowani: Media = Media.Radio;
+export const przeprogramowani: Media = Media.Internet;
+
+console.log(przeprogramowani);
