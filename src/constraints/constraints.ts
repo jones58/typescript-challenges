@@ -44,7 +44,12 @@ const videos: Video[] = [
   { id: 5, name: 'Poznaj TypeScript', length: 22 },
 ];
 
-function processItems<T>(items: T[]): T[] {
+interface VideoBook {
+  id: number;
+  name: string;
+}
+
+function processItems<T extends VideoBook>(items: Array<T>): Array<VideoBook> {
   return items.filter(({ id }) => id > 2).map(({ id, name }) => ({ id, name }));
 }
 

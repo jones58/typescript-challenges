@@ -33,8 +33,8 @@ Discover all the challenges by running `npm run` in your console. Here's the lis
 - [x]`npm run test:shortcuts`
 - [x]`npm run test:this-or-that`
 - [x]`npm run test:only-one`
-- `npm run test:new-skills`
-- `npm run test:constraints`
+- [x]`npm run test:new-skills`
+- [x]`npm run test:constraints`
 - `npm run test:type-operator`
 
 ## 💪 Advanced challenge
